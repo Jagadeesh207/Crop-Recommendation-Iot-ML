@@ -1,0 +1,20 @@
+Ignore Python virtual environments (conda and venv)
+
+crop_project
+venv
+pycache
+
+Ignore compiled Python files
+
+*.pyc
+*.pyo
+*.pyd
+
+Ignore other common development folders and files
+
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.idea
+.vscode

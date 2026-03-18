@@ -1,0 +1,97 @@
+name: flutter_app
+description: A new Flutter project for Crop Recommendation and Yield Prediction.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  geolocator: ^10.1.0
+  # cupertino_icons: ^1.0.6 # Optional
+
+dev_dependencies: # Add the package here
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1 # Or latest version
+
+flutter:
+  uses-material-design: true
+  # assets: # Optional if you have other assets
+  #   - images/
+
+# Add this new section at the end of the file
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/flutter-img.png"
+  min_sdk_android: 21
+  # Adaptive icon settings for better fitting
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/flutter-img.png"
+  # Additional Android settings for better icon scaling
+  android_icons:
+    - image_path: "assets/icon/flutter-img.png"
+      size: 48
+    - image_path: "assets/icon/flutter-img.png"
+      size: 72
+    - image_path: "assets/icon/flutter-img.png"
+      size: 96
+    - image_path: "assets/icon/flutter-img.png"
+      size: 144
+    - image_path: "assets/icon/flutter-img.png"
+      size: 192
+  # iOS settings for better fitting
+  ios_icons:
+    - image_path: "assets/icon/flutter-img.png"
+      size: 20
+    - image_path: "assets/icon/flutter-img.png"
+      size: 29
+    - image_path: "assets/icon/flutter-img.png"
+      size: 40
+    - image_path: "assets/icon/flutter-img.png"
+      size: 50
+    - image_path: "assets/icon/flutter-img.png"
+      size: 57
+    - image_path: "assets/icon/flutter-img.png"
+      size: 60
+    - image_path: "assets/icon/flutter-img.png"
+      size: 72
+    - image_path: "assets/icon/flutter-img.png"
+      size: 76
+    - image_path: "assets/icon/flutter-img.png"
+      size: 80
+    - image_path: "assets/icon/flutter-img.png"
+      size: 87
+    - image_path: "assets/icon/flutter-img.png"
+      size: 114
+    - image_path: "assets/icon/flutter-img.png"
+      size: 120
+    - image_path: "assets/icon/flutter-img.png"
+      size: 144
+    - image_path: "assets/icon/flutter-img.png"
+      size: 152
+    - image_path: "assets/icon/flutter-img.png"
+      size: 167
+    - image_path: "assets/icon/flutter-img.png"
+      size: 180
+  web:
+    generate: true
+    image_path: "assets/icon/flutter-img.png"
+    background_color: "#FFFFFF"
+    theme_color: "#4CAF50"
+  windows:
+    generate: true
+    image_path: "assets/icon/flutter-img.png"
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: "assets/icon/flutter-img.png"
+
